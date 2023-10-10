@@ -11,7 +11,7 @@ body{
     width: 100%; /* largura */
     display: flex;
     justify-content: center;
-    background: linear-gradient(#030303, #fefefe);
+    background: linear-gradient(black, white);
     background-repeat: no-repeat;
 }   
 /* Logo  */ 
@@ -21,7 +21,7 @@ body{
 }
 .imagem img{
     width: 250px;
-    border-radius: 233px;
+    border-radius: 100px;
     margin-top: 150px;
 }
 
@@ -33,5 +33,31 @@ body{
     font-size: 32px;
     font-weight: 600;
     color: #010001fd;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
+}
+.redes-sociais{
+    margin-top: 30px;/*margem superior*/
+    justify-content: center;
+    align-items: center;
+    /*background: black; cor do fundo da DIV */
+
+}
+.icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: -6px 6px 6px 0px black;
+    overflow: hidden;/*efeito mascara*/
+}
+.icon i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;/*22*/
+    border-radius: 30px;
+    background-color:white;
+    color: black;
+    cursor: auto;
 }
