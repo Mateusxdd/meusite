@@ -240,5 +240,24 @@ h2{
             width: 200px;
         } 
     }
+    @media (max-width:326px){
+        .imagem img {
+            width: 100px;
+            border-radius: 200px;
+            margin-top: 25px;
+        }
+        .texto{
+            width: 200px;
+        }
+        .Linguagem img {
+            width: 150px;
+        }
+        .subtitulo{
+            font-size: 20px;
+        }
+        .item {
+            width: 150px;
+        } 
+    }
 }
 /*Recurso css que renderiza o conteudo do site e adapte para diverças resoluções*/
