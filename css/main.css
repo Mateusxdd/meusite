@@ -187,6 +187,7 @@ h2{
         margin-top: 25px;
     }
     .texto {
+        padding: px;
         width: 220px;
         height: 300px;
     }
@@ -242,22 +243,22 @@ h2{
     }
     @media (max-width:326px){
         .imagem img {
-            width: 100px;
+            width: 120px;
             border-radius: 200px;
             margin-top: 25px;
         }
         .texto{
-            width: 200px;
+            width: 120px;
         }
         .Linguagem img {
-            width: 150px;
+            width: 130px;
         }
         .subtitulo{
             font-size: 20px;
         }
         .item {
-            width: 150px;
+            width: 100px;
         } 
+        @media (min-width:326px) and ()
     }
-}
 /*Recurso css que renderiza o conteudo do site e adapte para diverças resoluções*/
